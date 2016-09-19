@@ -1,0 +1,22 @@
+{
+  "name": "PKKit",
+  "version": "0.1.0",
+  "summary": "A short description of PKKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/PKKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "adcaowei@163.com": "adcaowei@163.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/PKKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PKKit/Classes/**/*"
+}
