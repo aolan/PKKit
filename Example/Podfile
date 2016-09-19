@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PKKit_Example' do
+  pod 'PKKit', :path => '../'
+
+  target 'PKKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
