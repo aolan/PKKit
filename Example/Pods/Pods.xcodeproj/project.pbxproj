@@ -10,11 +10,20 @@
 		35ABEC0F6110F7B349ADEEC23602E2AD /* Pods-PKKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B3C1B046FB4E53E1030AC3B7A79A32 /* Pods-PKKit_Tests-dummy.m */; };
 		37903614003ABA4003571C425FE27622 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		3F963DE772AEFC69DDD7B383FAC1F9A8 /* Pods-PKKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 417FAE1C1DC70E18D28EBE2B23B6E4C6 /* Pods-PKKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A87F3E03BD629D6BE9EA7CFA7568A93 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F1009884013EC9A9FF6E1EA89968D2B8 /* ReplaceMe.m */; };
 		4FAFDA23EE24A776BAF855547B1F78C7 /* Pods-PKKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B794238876CEBB47DE4B5FAF2CA7901 /* Pods-PKKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67B2CC8367FEC2D293E8057B0FF3EB9B /* PKKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A853CD7B73E431EDE1DE49EA40EEF50 /* PKKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EF883D4DFD8F271FBE0B5FF63761FC6 /* Pods-PKKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9E9150D37DDAD8E462918B6A6FA744 /* Pods-PKKit_Example-dummy.m */; };
 		988A1C97D8BFB55E62B33CB60842B89F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		99D7C4131D90CA2800774DE0 /* NSString+PKURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D7C4111D90CA2800774DE0 /* NSString+PKURL.h */; };
+		99D7C4141D90CA2800774DE0 /* NSString+PKURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D7C4121D90CA2800774DE0 /* NSString+PKURL.m */; };
+		99D7C4171D90CB4700774DE0 /* NSDate+PKExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D7C4151D90CB4700774DE0 /* NSDate+PKExtension.h */; };
+		99D7C4181D90CB4700774DE0 /* NSDate+PKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D7C4161D90CB4700774DE0 /* NSDate+PKExtension.m */; };
+		99D7C41C1D90D13E00774DE0 /* PKDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D7C41A1D90D13E00774DE0 /* PKDeviceInfo.h */; };
+		99D7C41D1D90D13E00774DE0 /* PKDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D7C41B1D90D13E00774DE0 /* PKDeviceInfo.m */; };
+		99D7C4201D90DE6000774DE0 /* PKKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D7C41E1D90DE6000774DE0 /* PKKeychain.h */; };
+		99D7C4211D90DE6000774DE0 /* PKKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D7C41F1D90DE6000774DE0 /* PKKeychain.m */; };
+		99D7C4241D90F9E300774DE0 /* PKDataTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D7C4221D90F9E300774DE0 /* PKDataTask.h */; };
+		99D7C4251D90F9E300774DE0 /* PKDataTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D7C4231D90F9E300774DE0 /* PKDataTask.m */; };
 		C6FF13F223A99C1E573EE59BB19F02CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		E28DE0EFA4A22804077BA7C6DE22FFE5 /* PKKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E62CBA7D47C55FD7FA7D24FA6C55040F /* PKKit-dummy.m */; };
 /* End PBXBuildFile section */
@@ -48,6 +57,16 @@
 		8789542F1D275BFE383693B2EB3E2E73 /* Pods-PKKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PKKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		8A853CD7B73E431EDE1DE49EA40EEF50 /* PKKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKKit-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99D7C4111D90CA2800774DE0 /* NSString+PKURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PKURL.h"; sourceTree = "<group>"; };
+		99D7C4121D90CA2800774DE0 /* NSString+PKURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PKURL.m"; sourceTree = "<group>"; };
+		99D7C4151D90CB4700774DE0 /* NSDate+PKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+PKExtension.h"; sourceTree = "<group>"; };
+		99D7C4161D90CB4700774DE0 /* NSDate+PKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+PKExtension.m"; sourceTree = "<group>"; };
+		99D7C41A1D90D13E00774DE0 /* PKDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDeviceInfo.h; sourceTree = "<group>"; };
+		99D7C41B1D90D13E00774DE0 /* PKDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDeviceInfo.m; sourceTree = "<group>"; };
+		99D7C41E1D90DE6000774DE0 /* PKKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKKeychain.h; sourceTree = "<group>"; };
+		99D7C41F1D90DE6000774DE0 /* PKKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKKeychain.m; sourceTree = "<group>"; };
+		99D7C4221D90F9E300774DE0 /* PKDataTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDataTask.h; sourceTree = "<group>"; };
+		99D7C4231D90F9E300774DE0 /* PKDataTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDataTask.m; sourceTree = "<group>"; };
 		9E2F47E5E787FE1F3EDAC4B3AA88C736 /* PKKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PKKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30C5AFBB2793FD85355AEAAA97B29AF /* Pods-PKKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PKKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A3DC2913E9102B481B48B64D849B67D2 /* Pods_PKKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,7 +78,6 @@
 		E62CBA7D47C55FD7FA7D24FA6C55040F /* PKKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PKKit-dummy.m"; sourceTree = "<group>"; };
 		E640E1D8EA7D3AED945810AA7AD69D2E /* Pods-PKKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PKKit_Example.modulemap"; sourceTree = "<group>"; };
 		E678C6046B59290B3A3F59580B44B054 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1009884013EC9A9FF6E1EA89968D2B8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		F5E026B40D108BB7047F704986A9800C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F89C153CE1A281766519C46B6032FF55 /* Pods-PKKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PKKit_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,7 +113,9 @@
 		10EAAEA015BD1252138D2F318D7F8301 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F1009884013EC9A9FF6E1EA89968D2B8 /* ReplaceMe.m */,
+				99D7C4191D90CBDE00774DE0 /* PKNetwork */,
+				99D7C4101D90C9DE00774DE0 /* PKExtension */,
+				99D7C40F1D8FFA0D00774DE0 /* PKUtil */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -200,6 +220,37 @@
 			path = PKKit;
 			sourceTree = "<group>";
 		};
+		99D7C40F1D8FFA0D00774DE0 /* PKUtil */ = {
+			isa = PBXGroup;
+			children = (
+				99D7C41A1D90D13E00774DE0 /* PKDeviceInfo.h */,
+				99D7C41B1D90D13E00774DE0 /* PKDeviceInfo.m */,
+				99D7C41E1D90DE6000774DE0 /* PKKeychain.h */,
+				99D7C41F1D90DE6000774DE0 /* PKKeychain.m */,
+			);
+			path = PKUtil;
+			sourceTree = "<group>";
+		};
+		99D7C4101D90C9DE00774DE0 /* PKExtension */ = {
+			isa = PBXGroup;
+			children = (
+				99D7C4111D90CA2800774DE0 /* NSString+PKURL.h */,
+				99D7C4121D90CA2800774DE0 /* NSString+PKURL.m */,
+				99D7C4151D90CB4700774DE0 /* NSDate+PKExtension.h */,
+				99D7C4161D90CB4700774DE0 /* NSDate+PKExtension.m */,
+			);
+			path = PKExtension;
+			sourceTree = "<group>";
+		};
+		99D7C4191D90CBDE00774DE0 /* PKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				99D7C4221D90F9E300774DE0 /* PKDataTask.h */,
+				99D7C4231D90F9E300774DE0 /* PKDataTask.m */,
+			);
+			path = PKNetwork;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,7 +296,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D7C4171D90CB4700774DE0 /* NSDate+PKExtension.h in Headers */,
 				67B2CC8367FEC2D293E8057B0FF3EB9B /* PKKit-umbrella.h in Headers */,
+				99D7C4201D90DE6000774DE0 /* PKKeychain.h in Headers */,
+				99D7C4131D90CA2800774DE0 /* NSString+PKURL.h in Headers */,
+				99D7C4241D90F9E300774DE0 /* PKDataTask.h in Headers */,
+				99D7C41C1D90D13E00774DE0 /* PKDeviceInfo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,8 +393,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D7C41D1D90D13E00774DE0 /* PKDeviceInfo.m in Sources */,
+				99D7C4141D90CA2800774DE0 /* NSString+PKURL.m in Sources */,
+				99D7C4211D90DE6000774DE0 /* PKKeychain.m in Sources */,
+				99D7C4181D90CB4700774DE0 /* NSDate+PKExtension.m in Sources */,
 				E28DE0EFA4A22804077BA7C6DE22FFE5 /* PKKit-dummy.m in Sources */,
-				4A87F3E03BD629D6BE9EA7CFA7568A93 /* ReplaceMe.m in Sources */,
+				99D7C4251D90F9E300774DE0 /* PKDataTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

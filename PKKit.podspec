@@ -9,34 +9,31 @@
 Pod::Spec.new do |s|
   s.name             = 'PKKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PKKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'PKKit.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        常用的开发组件.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/PKKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/aolan/PKKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'adcaowei@163.com' => 'adcaowei@163.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/PKKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/aolan/PKKit.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
-  s.source_files = 'PKKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'PKKit' => ['PKKit/Assets/*.png']
-  # }
+  s.subspec 'PKUtil' do |util|
+    util.source_files = 'PKKit/Classes/PKUtil/*'
+    util.public_header_files = 'PKKit/Classes/PKUtil/*.h'
+  end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'PKExtension' do |extension|
+    extension.source_files = 'PKKit/Classes/PKExtension/*'
+    extension.public_header_files = 'PKKit/Classes/PKExtension/*.h'
+  end
+
+  s.subspec 'PKNetwork' do |network|
+    network.source_files = 'PKKit/Classes/PKNetwork/*'
+    network.public_header_files = 'PKKit/Classes/PKNetwork/*.h'
+  end
+
 end
