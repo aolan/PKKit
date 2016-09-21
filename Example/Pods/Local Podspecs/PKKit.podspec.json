@@ -1,9 +1,9 @@
 {
   "name": "PKKit",
   "version": "0.1.0",
-  "summary": "A short description of PKKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/PKKit",
+  "summary": "PKKit.",
+  "description": "常用的开发组件.",
+  "homepage": "https://github.com/aolan/PKKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,40 @@
     "adcaowei@163.com": "adcaowei@163.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PKKit.git",
+    "git": "https://github.com/aolan/PKKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
-  "source_files": "PKKit/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "PKUtil",
+      "source_files": "PKKit/Classes/PKUtil/*",
+      "public_header_files": "PKKit/Classes/PKUtil/*.h"
+    },
+    {
+      "name": "PKExtension",
+      "source_files": "PKKit/Classes/PKExtension/*",
+      "public_header_files": "PKKit/Classes/PKExtension/*.h"
+    },
+    {
+      "name": "PKNetwork",
+      "source_files": "PKKit/Classes/PKNetwork/*",
+      "public_header_files": "PKKit/Classes/PKNetwork/*.h"
+    },
+    {
+      "name": "PKMap",
+      "source_files": "PKKit/Classes/PKMap/*",
+      "public_header_files": "PKKit/Classes/PKMap/*.h",
+      "ios": {
+        "frameworks": "MapKit"
+      },
+      "dependencies": {
+        "Masonry": [
+          "~> 1.0.2"
+        ]
+      }
+    }
+  ]
 }

@@ -1,5 +1,15 @@
 PODS:
-  - PKKit (0.1.0)
+  - Masonry (1.0.2)
+  - PKKit (0.1.0):
+    - PKKit/PKExtension (= 0.1.0)
+    - PKKit/PKMap (= 0.1.0)
+    - PKKit/PKNetwork (= 0.1.0)
+    - PKKit/PKUtil (= 0.1.0)
+  - PKKit/PKExtension (0.1.0)
+  - PKKit/PKMap (0.1.0):
+    - Masonry (~> 1.0.2)
+  - PKKit/PKNetwork (0.1.0)
+  - PKKit/PKUtil (0.1.0)
 
 DEPENDENCIES:
   - PKKit (from `../`)
@@ -9,7 +19,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PKKit: 7cfee88769bedaa94306968b06ecc145dcb557d2
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  PKKit: 41aa49a3c53ec8a69e12906d046073ad46aed1eb
 
 PODFILE CHECKSUM: 5a3238051078e929829db2a4581148ca73667db0
 

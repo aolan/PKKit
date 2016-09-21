@@ -35,5 +35,12 @@ Pod::Spec.new do |s|
     network.source_files = 'PKKit/Classes/PKNetwork/*'
     network.public_header_files = 'PKKit/Classes/PKNetwork/*.h'
   end
+  
+  s.subspec 'PKMap' do |map|
+    map.source_files = 'PKKit/Classes/PKMap/*'
+    map.public_header_files = 'PKKit/Classes/PKMap/*.h'
+    map.ios.frameworks = 'MapKit'
+    map.dependency 'Masonry', '~> 1.0.2'
+  end
 
 end

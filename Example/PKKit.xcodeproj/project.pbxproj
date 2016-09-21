@@ -64,7 +64,7 @@
 		A04CA24B858461F19CA77612 /* Pods-PKKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PKKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PKKit_Tests/Pods-PKKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AFD80F11CA5653732BED8538 /* Pods_PKKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31C615CE86A70C836D7FAD1 /* Pods_PKKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PKKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0E5ED625229525AAEB9CB76 /* PKKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PKKit.podspec; path = ../PKKit.podspec; sourceTree = "<group>"; };
+		E0E5ED625229525AAEB9CB76 /* PKKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = PKKit.podspec; path = ../PKKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,7 +245,7 @@
 			attributes = {
 				CLASSPREFIX = PK;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "adcaowei@163.com";
+				ORGANIZATIONNAME = QXWZ;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
